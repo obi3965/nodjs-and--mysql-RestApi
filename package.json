@@ -1,0 +1,29 @@
+{
+  "name": "nodjs-and--mysql-restapi",
+  "version": "1.0.0",
+  "description": "node js and mysql rest api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obi3965/nodjs-and--mysql-RestApi.git"
+  },
+  "author": "obaidullah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/obi3965/nodjs-and--mysql-RestApi/issues"
+  },
+  "homepage": "https://github.com/obi3965/nodjs-and--mysql-RestApi#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
